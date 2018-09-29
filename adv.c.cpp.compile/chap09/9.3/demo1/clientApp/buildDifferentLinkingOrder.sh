@@ -4,4 +4,4 @@ gcc main.o \
 			-Wl,-L../firstLib -Wl,-lfirst \
 			-Wl,-R../firstLib \
 			-Wl,-R../secondLib \
-			-o clientApp
+			-o clientAppDifferentLinkingOrder
