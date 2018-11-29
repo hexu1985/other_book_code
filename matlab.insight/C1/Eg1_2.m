@@ -27,3 +27,18 @@ else
     fprintf('Minimizing x    = %5.2f\n',R)
     fprintf('Minimum f value = %5.2f\n',fR)
 end
+
+% Sample
+%{
+Enter b:2
+Enter c:4
+Enter L:1
+Enter R (L<R):5
+%}
+%{
+Quadratic: x^2 + bx + c,  b =  2.00, c =  4.00
+Interval : [L,R], L =  1.00, R =  5.00
+
+Minimizing x    =  1.00
+Minimum f value =  7.00
+%}

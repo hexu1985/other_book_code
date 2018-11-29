@@ -19,3 +19,13 @@ clc
 fprintf('n      = %1d\n',n)
 fprintf('rho_n  = %12.8f\n',rho_n)
 fprintf('Error  = %12.8f\n',abs(pi-rho_n))
+
+% Sample
+%{
+Enter an  integral radius n: 1000
+%}
+%{
+n      = 1000
+rho_n  =   3.13754800
+Error  =   0.00404465
+%}
