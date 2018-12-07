@@ -22,3 +22,9 @@ clc
 timeRatio = T1/T2;
 fprintf('M = %1d\n',M)
 fprintf('Eg3_1 Time / FasterEg3_1 Time = %10.1f\n',timeRatio)
+
+% Sample
+%{
+M = 10000
+Eg3_1 Time / FasterEg3_1 Time =      574.3
+%}

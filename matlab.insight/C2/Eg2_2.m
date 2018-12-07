@@ -30,3 +30,16 @@ fprintf(' rho_nStar = %20.15f\n Pi        = %20.15f\n',...
                                                    rho_nStar,pi)
 
 
+% Sample
+%{
+Enter the error tolerance:1e-6
+Enter the iteration bound:10000
+%}
+%{
+ delta =  1.000e-06
+ nStar = 5569
+ nMax  = 10000
+
+ rho_nStar =    3.141592486963389
+ Pi        =    3.141592653589793
+%}

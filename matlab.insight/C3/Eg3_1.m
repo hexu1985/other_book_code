@@ -37,3 +37,15 @@ fprintf('M     = %1d\npBest = %1d\nqBest = %1d\n',...
 fprintf('MyPi  = %17.15f\npi    = %17.15f\nerror = %17.15f\n\n',...
         MyPi,pi,err_pq)
 
+% Sample
+%{
+Enter M:1000
+%}
+M     = 1000
+pBest = 355
+qBest = 113
+MyPi  = 3.141592920353983
+pi    = 3.141592653589793
+error = 0.000000266764189
+%{
+%}
